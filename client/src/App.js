@@ -15,7 +15,7 @@ const App = () => {
 
     useEffect(() => {
         dispatch(getPosts()); // getPosts action is called which is handled by the reducer
-    },[dispatch]);
+    },[currentId,dispatch]);
 
     return (
     <Container maxWidth="lg">
