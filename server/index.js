@@ -13,7 +13,11 @@ const app = express();
 
 app.use(bodyParser.json({ limit: '30mb', extended: true }))
 app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }))
-app.use(cors());
+
+app.use(cors({
+  origin: 'http://localhost:3000', // Replace with your frontend's actual origin
+  credentials: true,
+}));
 
 app.use('/posts',postRoutes);
 
