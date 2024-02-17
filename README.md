@@ -36,6 +36,7 @@ npm start
 The app will run on http://localhost:3000 for the client and http://localhost:5000 for the server.
 
 ## Features
+
 User authentication with JWT 🔐 (Ongoing)
 
 Create, edit, delete memories with title, content, tags, location, and images 📝
@@ -51,5 +52,6 @@ Responsive UI 📱
 
 ## Tech Stack
 Client: React, Redux, MaterialUI
+
 Server: Node, Express, MongoDB, JWT
 
