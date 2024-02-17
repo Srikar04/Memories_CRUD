@@ -37,10 +37,15 @@ The app will run on http://localhost:3000 for the client and http://localhost:50
 
 ## Features
 User authentication with JWT 🔐 (Ongoing)
+
 Create, edit, delete memories with title, content, tags, location, and images 📝
+
 View all public memories 👀
+
 Search memories by title or tags 🔎
+
 View memory details 📖
+
 Responsive UI 📱
 
 
