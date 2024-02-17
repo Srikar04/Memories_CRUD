@@ -10,12 +10,14 @@ To run this app locally, fork and clone this repo. Ensure you have Node.js insta
 
 ### Installation
 
-```bash
 # Client
+```bash
 cd client
 npm install
+```
 
 # Server
+```bash
 cd server
 npm install --legacy-peer-deps
 ```
@@ -40,6 +42,7 @@ View all public memories 👀
 Search memories by title or tags 🔎
 View memory details 📖
 Responsive UI 📱
+
 
 ## Tech Stack
 Client: React, Redux, MaterialUI
